@@ -19,6 +19,11 @@
 * ![](./css.jpg)
 * **注意:** 这里的右侧字母所在的view高度,也就是 .index-english view  高度固定为15px不可修改,如果有需要以后的版本再改善,其他部分样式可以自定义
 
+##下载地址
+
+> bower: <https://github.com/petsgre/indexList.git>
+> bower install indexList
+
 ##如何使用
 
 > 新建已经注册的页面，复制代码即可
