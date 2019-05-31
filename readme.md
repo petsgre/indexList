@@ -15,7 +15,7 @@
 * github地址:<https://github.com/petsgre/indexList>
 * 开发工具：微信开发者工具
 * 初始版本：v1.0.0
-* 当前版本：v2.0.0
+* 当前版本：v2.0.1
 
 ### 功能要点
 
@@ -26,9 +26,9 @@
 
 ### 下载地址
 
-> bower: <https://github.com/petsgre/indexList.git>
->
 > bower install indexList（停止更新bower）
+>
+> npm install wx-index (从node_modules目录下面拷贝出项目代码即可)
 
 ### 如何使用
 
