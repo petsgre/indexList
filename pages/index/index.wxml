@@ -1,2 +1,2 @@
 
-<zx-index list="{{list}}" class="my-class"></zx-index>
+<zx-index list="{{list}}"></zx-index>
