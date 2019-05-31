@@ -1,0 +1,20 @@
+{
+  "name": "indexList",
+  "version": "2.0.0",
+  "description": "小程序字母索引",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petsgre/indexList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petsgre/indexList/issues"
+  },
+  "homepage": "https://github.com/petsgre/indexList#readme"
+}

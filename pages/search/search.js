@@ -32,7 +32,6 @@ Page({
     indexy: "",
     indexEnglish: "",
     arrId: indexArr,
-    userInfo: "这是一条数据",
     list: list
   },
   touchstart: function(e) {

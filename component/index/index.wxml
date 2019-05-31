@@ -1,0 +1,14 @@
+<scroll-view scroll-y="true" style="height:{{windowHeight}}px;" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+  <block wx:for="{{list}}" wx:key="{{item.id}}">
+    <view class="search-english" id="{{item.id}}">
+      {{item.head}}
+    </view>
+    <view class="search-car" wx:for="{{item.children}}" wx:key="{{idx}}" bindtap="showRequire" wx:for-item="child" wx:for-index="idx">
+      <image src="{{child.imgUrl}}"></image>{{child.text}}
+    </view>
+  </block>
+</scroll-view>
+<view class="index-english" style="top:{{indexTop}}px">
+  <view wx:for="{{arrId}}" wx:key="{{i}}" wx:for-item="i" id="{{i}}" catchtouchstart="touchstart" catchtouchmove="touchmove" catchtouchend="touchend">{{i}}</view>
+</view>
+<view class="index-name" wx:if="{{indexShow}}">{{indexEnglish}}</view>
